@@ -1,0 +1,65 @@
+
+@import url('box-wrap-grid.css');      /* layout for Main Page */
+@import url('base-item.css');
+@import url('colors.css');
+@import url('custom-settings.css'); 
+@import url('box-filters.css');
+@import url('btns.css'); /* base-item */
+@import url('merch-item.css');
+@import url('merch-grid.css');
+@import url('box-commons.css'); 
+@import url('commons.css');
+@import url('form-elements.css');
+@import url('login-page.css');       
+@import url('new-header.css');
+@import url('new-footer.css');
+@import url('content-wrap.css');
+@import url('cookies.css');
+@import url('declaratives.css');
+@import url('fonts.css');
+@import url('stadium.css');
+
+
+
+main {
+width:                100%;
+min-height:           90vh;
+padding:              var(--main-top-padding) 8px;
+background-size:      cover;
+background-position:  center;
+box-sizing:           border-box;
+background-size:      cover;
+overflow-y:           visible;
+}
+.box-wrap{
+width:                var(--box-wrap-width);
+max-width:            var(--box-wrap-width-max);
+min-height:           45vh;
+margin:               max(2.5vw,1rem) auto;
+padding:              0 ;
+align-content:        center;
+container-type:       inline-size;
+container-name:       box-wrap;
+}
+.main-wrap {
+width:                var(--main-wrap-width);
+max-width:            var(--main-wrap-width-max);
+min-height:           50vh;
+margin:               max(2.5vw,1rem) auto;
+padding:              0.5rem;
+display:              flex;
+flex-direction:       column;
+justify-content:      center;
+background-color:     var(--main-wrap-bg);
+border-radius:        var(--basic-radius);
+}
+@media (width <= 640px) {
+.main-wrap, .box-wrap {
+width:  unset;
+margin: 6;
+padding:7px;
+}
+
+}
+
+
