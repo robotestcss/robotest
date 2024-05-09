@@ -65,5 +65,4 @@ root:{
 --cookie-txt: var(--light-txt);
 --cookie-title-color: var(--light-txt);
 --btn-trsp: hsl(var(--first-base) 30% 80% / 0.4);
---test: testvalue;
 }
