@@ -49,7 +49,7 @@ root:{
 --btn-accent-bg: var(--accent-color);
 --btn-accent-txt: var(--light-txt);
 --btn-trsp-color: var(--light-txt);
---btn-trsp-brd-color: #666ss;
+--btn-trsp-brd-color: #666;
 --btn-top-login-bg: var(--first-color);
 --btn-top-login-txt: var(--light-txt);
 --btn-top-new-account-txt: var(--dark-txt);
