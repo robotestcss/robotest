@@ -1,0 +1,17 @@
+:root{
+--first-base:   
+--second-base:  
+--third-base:   
+--first-color:  
+--second-color: 
+--third-color:  
+
+--accent-color: 
+
+/* text colors */
+--dark-txt:    
+--light-txt:   
+--grey-txt:    
+--error-color: 
+--link-color: 
+}
